@@ -1,12 +1,12 @@
 ---
-title: '剑指 Offer 17. 打印从 1 到最大的 n 位数' sidebar: 'auto' date: 2021-04-17 tags:
-
+title: '剑指 Offer 17. 打印从 1 到最大的 n 位数' 
+sidebar: 'auto'
+date: 2021-04-17 
+tags:
 - 剑指 Offer
 
 categories:
-
 - 算法
-
 ---
 
 > 十进制

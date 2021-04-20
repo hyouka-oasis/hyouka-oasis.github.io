@@ -19,11 +19,11 @@ module.exports = {
         lineNumbers: true, //代码显示行号
     },
     // 最后更新时间
-    lastUpdated: '反正不是今天', // string | boolean
+    lastUpdated: '反正不是你看见的时间', // string | boolean
     // 作者
     author: '诸观涛',
     // 备案号
-    record: '浙ICP备20018057号-2',
+    record: '浙ICP备20018057号-8',
     // 项目开始时间
     startYear: '2021',
     search: true,

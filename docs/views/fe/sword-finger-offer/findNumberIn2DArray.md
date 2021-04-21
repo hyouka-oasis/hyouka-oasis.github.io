@@ -59,14 +59,14 @@ findNumberIn2DArray([
 ], 5);
 ````
 
-![findNumberIn2DArray](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray.png)
+![findNumberIn2DArray](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/findNumberIn2DArray.png)
 
 但是呵呵，显然题目表达的意思并不是想让你暴力破解，所以我们可以找到题目当中的关键字
 从上到下，从左到右，于是乎
 
-![](https://pic.leetcode-cn.com/658d813d066d465f5eacc438aba4869420eb7b106776d49c5ca0b8cf16383a30-offer4-1.png)
-![](https://pic.leetcode-cn.com/d5a3779eee525105ae3e710067d6eaddf3a6e1cf3ff926d40999ab0dedc49235-offer4-2.png)
-![](https://pic.leetcode-cn.com/a35261ece9305b6c26fe5c5cc9e7a6a05cf3a089c8c42e23b34419bdbaa6e2ae-offer4-3.png)
+![](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/img.png)
+![](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/img_1.png)
+![](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/img_2.png)
 
 从左下角作为原始起点(x)，左下角的上方数字比x要小，左下角的右方数字比x要大
 由此规律便可得出从x开始进行比较,如果x > target, 则将x = x上方的数字，

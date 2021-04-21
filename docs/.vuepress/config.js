@@ -52,7 +52,9 @@ module.exports = {
             options: {
                 appId: 'FdT4yPiuI8yl0Q1ndeKy0Dr4-gzGzoHsz',// your appId
                 appKey: '3uFvPvYeuHfUzULmU7ntRazw', // your appKey，
-                lang: 'zh-CN'
+                visitor: true,
+                lang: 'zh-CN',
+                placeholder: '请填写你的评论吧😊😊😊'
             }
         }]
     ],

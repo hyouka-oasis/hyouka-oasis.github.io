@@ -11,10 +11,10 @@ module.exports = Object.assign({}, themeReco, {
   sidebar: 'auto',
   friendLink: [
     {
-      title: 'vuepress-theme-reco',
-      desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-      logo: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-      link: 'https://vuepress-theme-reco.recoluan.com'
+      title: '俊劫',
+      desc: '一个非常能收集杂七杂八资源的人，想学点其他的可以先去他的个人博客里面看看',
+      logo: "https://alexwjj.github.io/logo.png",
+      link: 'https://alexwjj.github.io'
     }
   ],
 })

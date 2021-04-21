@@ -34,7 +34,7 @@ categories:
 0 <= m <= 1000
 ````
 
-首先这道题目首先抛去什么优化性问题的话其实挺简单的,只需要最简单的for循环即可
+首先这道题目首先暴力的话其实挺简单的,只需要最简单的for循环即可
 ````javascript
 const findNumberIn2DArray = function (matrix, target) {
   if (!matrix.length) return false;
@@ -61,7 +61,7 @@ findNumberIn2DArray([
 
 ![findNumberIn2DArray](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/findNumberIn2DArray.png)
 
-但是呵呵，显然题目表达的意思并不是想让你暴力破解，所以我们可以找到题目当中的关键字
+但是显然表达的意思并不是想让你暴力破解，所以我们可以找到题目当中的关键字
 从上到下，从左到右，于是乎
 
 ![](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/findNumberIn2DArray/img.png)

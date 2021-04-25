@@ -238,8 +238,8 @@ import React from 'react';
 import {Button} from 'antd';
 
 class SonComponent extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             description: 'i am son'
         };
@@ -249,11 +249,13 @@ class SonComponent extends React.Component {
     }
     render() {
         const {description} = this.state;
+        const {fatherClick} = this.props;
         const {clickButton} = this;
         return (
             <div>
                 {description}
                 <Button onClick={clickButton}>点击我</Button>
+                <Button onClick={() => fatherClick('点击事件')}>点击我</Button>
             </div>
         )
     }
@@ -266,12 +268,16 @@ class FatherComponent extends React.Component {
             description: 'i am Father'
         };
     }
+    fatherClick(string) {
+        console.log(string);
+    }
     render() {
         const {description} = this.state;
+        const {fatherClick} = this;
         return(
             <div>
                 {description}
-                <SonComponent/>
+                <SonComponent fatherClick={fatherClick}/>
             </div>
         )
     }

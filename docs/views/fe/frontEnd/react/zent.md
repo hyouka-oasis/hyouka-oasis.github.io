@@ -32,7 +32,9 @@ date: '2021-4-25'
 
 ### 创建
 创建react+typescript项目，我们还是采用官方的命令 npx create-react-app name --template typescript
-创建好项目以后的目录结构 ![目录结构]()
+创建好项目以后的目录结构 
+
+![目录结构](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/react/zent/img.png)
 
 * src项目目录
   * App.tsx官方用例
@@ -40,7 +42,9 @@ date: '2021-4-25'
 * tsconfig(ts配置文件)    
 
 接下来我们将src进行改造一下
-![目录结构]()
+
+![目录结构](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/react/zent/img_1.png)
+
 * src-项目目录
     * assets-资源存放目录
     * components-全局组件存放目录
@@ -230,7 +234,7 @@ const UserLayout = () => {
 写完以上内容一个简单的用户名密码登陆页面就出来
 
 其次我们接着写BaseLayout，刚刚说过在后台当中，用户所看到的内容其实就是这一块路由组件的切换
-![路由]()
+![路由](https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/react/zent/img_2.png)
 所以我们可以围绕这一点在设计路由和布局
 ```javascript
 //BaseLayout
@@ -244,7 +248,7 @@ const BaseLayout = () => {
               <Header/>
               <div className='layout-content-body'>
                 <Switch>
-                  这边就是我们要轮回的路由
+                  这边就是我们要子路由
                 </Switch>
               </div>
             </div>

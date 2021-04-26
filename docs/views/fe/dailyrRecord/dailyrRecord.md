@@ -11,7 +11,44 @@ categories:
 
 > 记录一下日常生活🌈🌈🌈
 
-## 2020.04.20
+## 2020-04-25
+由于公司里面要用zent，没看过所以今天花了半天的时间用来写了一个简单的[后台](https://github.com/HyoukaM/React-Typescript-zent)
+
+## 2020-04-24
+
+公寓通知将停水至下午，很无奈为了节省早饭钱和中饭去，一直睡到下午🐶🐶🐶(理财专家)。
+然后四点多的时候去买了点食材，到家八点多了吧，然后温故了红宝石第四版。
+
+## 2020-04-23
+
+思考了一下怎么样在React中将
+```javascript
+<switch>
+    <Router>
+        <Route component/>
+        <Route component/>
+        <Route component/>
+        <Route component/>
+    </Router>
+</switch>
+```
+的形式转换为vue当中的
+```javascript
+const routes = [
+    {
+        name: '',
+        component: Vue.Component | Promise<Vue.Component>,
+        path: ''
+    }
+]
+```
+形式，参考了我原有的经验完成(小小的不足，不能实现Promise)
+ 
+## 消失的时间
+
+中间跳了一段，我也忘记我中间干了啥了
+
+## 2020-04-20
 ### 上午
 一到公司就非常难受了，为什么难受呢，因为我搭建的github与travis两者的分支不能进行同步，
 所以我昨儿晚上写的东西就没办法更新到GitHub的分支上面，还好公司网络面向全球，于是乎我就
@@ -29,7 +66,7 @@ categories:
 
 ### 晚上
 日常的晚点下班，回到家日常怀疑人生。
-## 2020.04.19
+## 2020-04-19
 
 ### 日常不要脸
 

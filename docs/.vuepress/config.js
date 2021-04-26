@@ -32,9 +32,9 @@ module.exports = {
             "dynamic-title",
             {
                 showIcon: "/avatar.ico",
-                showText: "(/≧▽≦/)老板好！",
+                showText: "👻我害怕鬼！",
                 hideIcon: "/avatar.ico",
-                hideText: "(●—●)快快回来！",
+                hideText: "🧑‍💻我不害怕人！",
                 recoverTime: 2000
             }
         ],
@@ -63,4 +63,4 @@ module.exports = {
             lang: 'zh-CN'
         }
     },
-}  
+}

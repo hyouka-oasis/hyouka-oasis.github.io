@@ -8,7 +8,7 @@ categories:
 - 算法
 
 sidebar: 'auto'
-date: '2021-4-21'
+date: '2021-4-26'
 ---
 
 统计一个数字在排序数组中出现的次数。

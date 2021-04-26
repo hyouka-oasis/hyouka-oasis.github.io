@@ -1,5 +1,5 @@
 ---
-title: 我的日常生活
+title: 我的日常
 sidebar: 'auto'
 date: 2021-04-17
 tags:
@@ -7,6 +7,9 @@ tags:
 
 categories:
 - 日常
+
+sticky:
+- 1
 ---
 
 > 记录一下日常生活🌈🌈🌈

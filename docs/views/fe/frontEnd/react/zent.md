@@ -8,6 +8,8 @@ categories:
 
 sidebar: 'auto'
 date: '2021-4-25'
+sticky:
+- 2
 ---
 
 ## 前言

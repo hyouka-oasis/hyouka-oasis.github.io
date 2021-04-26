@@ -14,10 +14,10 @@ module.exports = {
             `
             var _hmt = _hmt || [];
             (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?4b108402c7f42462b38e7f15d0fc9321";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?4b108402c7f42462b38e7f15d0fc9321";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
             })();    
         `
         ]
@@ -60,16 +60,6 @@ module.exports = {
                 }
             ],
         }],
-        ['vuepress-plugin-comment', {
-            choosen: 'valine',
-            options: {
-                appId: 'FdT4yPiuI8yl0Q1ndeKy0Dr4-gzGzoHsz',// your appId
-                appKey: '3uFvPvYeuHfUzULmU7ntRazw', // your appKey，
-                visitor: true,
-                lang: 'zh-CN',
-                placeholder: '请填写你的评论吧😊😊😊'
-            }
-        }]
     ],
     locales: {
         '/': {

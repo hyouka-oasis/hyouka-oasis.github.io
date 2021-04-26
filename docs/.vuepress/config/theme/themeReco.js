@@ -1,7 +1,7 @@
 module.exports = {
     type: 'blog',
     fullscreen: true,
-    mode: 'light',
+    mode: 'dark',
     authorAvatar: '/avatar.png',
     logo: '/avatar.png',
     // 博客设置

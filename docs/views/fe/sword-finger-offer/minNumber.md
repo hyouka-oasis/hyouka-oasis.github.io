@@ -2,6 +2,7 @@
 title: '剑指 Offer 45. 把数组排成最小的数'
 tags:
 - 剑指 Offer
+- 中等难度
 
 categories:
 - 算法
@@ -37,7 +38,7 @@ const minNumber = (nums = [3, 30, 34, 5, 9]) => {
 };
 ```
 
-这是我能想到最快的方法，能力有限
+以上是我能想到最快的方法，能力有限
 其实就是快速排序
 这里参考[落落落洛克](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/song-gei-qian-duan-de-tong-xue-kan-bu-do-4fko/) 的题解
 ```javascript/**

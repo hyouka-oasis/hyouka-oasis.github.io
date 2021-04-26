@@ -2,6 +2,7 @@
 title: '剑指 Offer 39. 数组中出现次数超过一半的数字'
 tags:
 - 剑指 Offer
+- 简单难度
 
 categories:
 - 算法

@@ -8,6 +8,8 @@ tags:
 categories:
 - 前端
 
+sticky:
+- 3
 ---
 
 > 和我面基(还没)的俊劫发表了一篇这样的文章，地址：[掘金](https://juejin.cn/post/6953482028188860424)

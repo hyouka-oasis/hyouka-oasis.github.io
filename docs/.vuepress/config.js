@@ -7,7 +7,20 @@ module.exports = {
     dest: 'docs/.vuepress/dist',
     head: [
         ['link', {rel: 'icon', href: '/favicon.ico'}],
-        ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}]
+        ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
+        [
+            'script',
+            {},
+            `
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?4b108402c7f42462b38e7f15d0fc9321";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+            })();    
+        `
+        ]
     ],
     theme: 'reco',
     themeConfig,

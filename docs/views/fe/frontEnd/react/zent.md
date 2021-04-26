@@ -13,10 +13,11 @@ date: '2021-4-25'
 ## 前言
 
 > 由于公司H5采用vue，小程序采用原生，后台采用react+typescript+zent的形式。而个人使用的react结合库的话用得多的是antd，所以来用zent简单的来搭建一个后台吧。
- 
-> [源码地址](https://github.com/HyoukaM/React-Typescript-zent) <br/> 
-> [个人博客地址](https://hyoukam.github.io/)
 
+> [预览地址](https://hyoukam.github.io/React-Typescript-zent/#/login) <br/>
+> [源码地址](https://github.com/HyoukaM/React-Typescript-zent) <br/>
+> [个人博客地址](https://hyoukam.github.io/)
+> 
 ## 关于
 [zent](https://youzan.github.io/zent/zh/guides/install) 是有赞开发的一套基于WebUI规范的一套react业务组件库，并且有赞还特意为zent写了babel-plugin-zent来结合zent库进行按需加载
 
@@ -658,7 +659,92 @@ export default connect(({loginModule}: ConnectType) => ({...loginModule}))(BaseL
 ```
 
 ### 导航栏
-今天就写了这么多剩余的部分后面慢慢补吧🐶🐶，侧边导航栏的话其实就和渲染路由的思路是一样的
+```javascript
+import {Menu, Icon} from 'zent';
+
+const {MenuItem, SubMenu} = Menu;
+
+const SlideBar = () => {
+    const {location: {pathname}} = history;
+    const [defaultSelectedKey, setDefaultSelectedKey] = useState<string>('/basis');
+    /**
+     * 这里返回的是{name, path, component} component我们不需要
+     * 这个函数有必要可以在修改一下将promise.default改成{}导出将
+     * meta信息也一致返回出来当然真实环境肯定是通过api来获取的
+     * */
+    const renderMenu = (menu = paths) => {
+        if (!menu) return;
+        /**
+         * 这里的sub应该对应最开始设置的路由接口Array<RouterConfig>我这为了方便就随便写了,而且我这里就只有一层
+         * **/
+        const renderItemOrSub = (sub: any) => {
+            if (sub.children && sub.children.length) {
+                //SubMenu内还可以添加其他参数
+                return (
+                    <SubMenu
+                        title={sub.name}
+                    >
+                        {renderMenu(sub.children)}
+                    </SubMenu>
+                )
+            } else {
+                return (
+                    <MenuItem key={sub.path}>
+                        {sub.name}
+                    </MenuItem>
+                )
+            }
+        }
+        return menu.map((item: any) => {
+            return renderItemOrSub(item);
+        })
+    };
+    const slideMenuClick = async (e: React.MouseEvent, key: string) => {
+        await setDefaultSelectedKey(pathname);
+        await history.push(key);
+    };
+
+    return (
+        <div className='slide-bar'>
+            <div className='slide-bar-header'>
+                <Icon type='youzan'/>
+                <span className='slide-bar-header-title'>
+                    Zent
+                </span>
+            </div>
+            <div className='slide-bar-menu'>
+                <Menu
+                    mode="inline"
+                    defaultSelectedKey={defaultSelectedKey}
+                    onClick={slideMenuClick}
+                >
+                    {renderMenu()}
+                </Menu>
+            </div>
+        </div>
+    )
+};
+```
+写完以上代码后我们最后在BaseLayout里面引入
+
+```javascript
+    return(
+        <div className='layout'>
+            <div className='layout-slide'>
+                <SlideBar/>
+            </div>
+            <div className='layout-content'>
+                <Header/>
+                <div className='layout-content-body'>
+                    <Switch>
+                        {routes}
+                    </Switch>
+                </div>
+            </div>
+        </div>
+    )
+```
+接着我们就可以愉快的编写我们的页面了
 
 ## 个人感想
 

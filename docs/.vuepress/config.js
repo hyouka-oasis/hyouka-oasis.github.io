@@ -31,6 +31,7 @@ module.exports = {
         '@vuepress/medium-zoom',
         'flowchart',
         '@vuepress-reco/vuepress-plugin-loading-page',
+        '@vuepress-reco/extract-code',
         [
             "cursor-effects",
             {
@@ -50,6 +51,7 @@ module.exports = {
                 recoverTime: 2000
             }
         ],
+
         ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
             title: '个人微信:15157548822',
             body: [

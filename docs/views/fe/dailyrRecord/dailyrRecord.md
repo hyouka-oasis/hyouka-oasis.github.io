@@ -12,7 +12,63 @@ sticky:
 - 1
 ---
 
-> 记录一下日常生活🌈🌈🌈
+> 记录一下日常生活🌈🌈🌈 
+
+
+## 2020-04-26
+
+### 上午
+
+昨天简单的写了一个React+Typescript+Zent后台，但是早上编写的时候发现通过require.context引入路由路径的方法有点问题
+于是改动了一下。临近中午吃饭的时候在知乎发现了一篇毁三观的散文，挺有意思的🤤。
+
+### 下午
+
+pm把我们拉进去开了一个简单的敏捷开发扫盲会，团队同事之间简单的介绍了一下自己。然后制定了前端后端之间的DOD
+然后我们前端制定的DOD分为五点
+* 页面达到设计效果
+* 不同设备的兼容性
+* 功能逻辑完整
+* 页面性能达到要求
+* 符合代码规范
+
+出来以后简单的学了一下vue3，发现通过setup函数解构出去的变量不会被监听到🧐
+```javascript
+//不会响应
+<template>
+    <div>
+        {{name}}
+    </div>
+</template>
+<script>
+    export default {
+        setup() {
+            const state = {
+                name: 'this is vue3'
+            };
+            return {...state}
+        }   
+    }
+</script>
+
+//会响应
+<template>
+    <div>
+        {{state.name}}
+    </div>
+</template>
+<script>
+    export default {
+        setup() {
+            const state = {
+                 name: 'this is vue3'
+            };
+        return {state}
+    }
+}
+</script>
+```
+也是第一次试vue3，还是需要慢慢来的。
 
 ## 2020-04-25
 由于公司里面要用zent，没看过所以今天花了半天的时间用来写了一个简单的[后台](https://github.com/HyoukaM/React-Typescript-zent)

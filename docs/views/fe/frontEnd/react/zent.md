@@ -18,7 +18,7 @@ sticky:
 
 > [预览地址](https://hyoukam.github.io/React-Typescript-zent/#/login) <br/>
 > [源码地址](https://github.com/HyoukaM/React-Typescript-zent) <br/>
-> [个人博客地址](https://hyoukam.github.io/)
+> [掘金](https://juejin.cn/post/6955128377346883620?utm_source=gold_browser_extension)
 > 
 ## 关于
 [zent](https://youzan.github.io/zent/zh/guides/install) 是有赞开发的一套基于WebUI规范的一套react业务组件库，并且有赞还特意为zent写了babel-plugin-zent来结合zent库进行按需加载

@@ -20,7 +20,7 @@ module.exports = {
     },
 
     // 最后更新时间
-    lastUpdated: '反正不是你看见的时间', // string | boolean
+    lastUpdated: '最后更新时间', // string | boolean
     // 作者
     author: '诸观涛',
     // 备案号

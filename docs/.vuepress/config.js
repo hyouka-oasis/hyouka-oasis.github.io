@@ -1,4 +1,5 @@
 const themeConfig = require('./config/theme/');
+const moment = require('moment');
 
 module.exports = {
     base: '/',
@@ -8,9 +9,7 @@ module.exports = {
     head: [
         ['link', {rel: 'icon', href: '/favicon.ico'}],
         ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
-        [
-            'script',
-            {},
+        ['script', {},
             `
             var _hmt = _hmt || [];
             (function() {
@@ -60,6 +59,15 @@ module.exports = {
                 }
             ],
         }],
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    moment.locale(lang)
+                    return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+                }
+            }
+        ]
     ],
     locales: {
         '/': {

@@ -6,7 +6,6 @@ tags:
 categories:
 - 前端
 
-sidebar: 'auto'
 date: '2021-4-25'
 sticky:
 - 2

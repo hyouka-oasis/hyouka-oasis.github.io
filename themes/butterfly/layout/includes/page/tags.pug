@@ -1,0 +1,7 @@
+.tag-cloud-title.is-center= _p('page.tag')
+  //|
+  //span.tag-cloud-amount= site.tags.length
+  span(class='iconfont icon-biaoqian1')=''
+.tag-cloud-list.is-center
+  !=cloudTags({source: site.tags, minfontsize: 1.2, maxfontsize: 1.2, limit: 0, unit: 'em'})
+  //!=cloudTags({source: site.tags, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})

@@ -1,0 +1,31 @@
+.tag-cloud
+  &-list
+    text-align left
+
+    a
+      display: inline-block
+      transition: all .3s
+      padding .2rem .5rem
+      background #ededed
+      margin .5em .5em
+      border-radius 12px
+      color black
+
+      &:hover
+        //color: $text-hover !important
+        color: white !important
+        background var(--hyouka-linear-gradient)
+        transform: scale(1.1)
+
+      +maxWidth768()
+        zoom: .85
+
+  &-title
+    font-size: 1.57em
+    display flex
+    align-items center
+    justify-content space-between
+    padding 0 .5rem
+
+    +maxWidth768()
+      font-size: 2em

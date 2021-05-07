@@ -82,7 +82,7 @@ favicon: /assets/image/favicon.svg
 
 # Avatar (頭像)
 avatar:
-  img: https://raw.githubusercontent.com/HyoukaM/HyoukaM.github.io/docs/docs/.vuepress/public/avatar.ico
+  img: /assets/image/img.png
   effect: false
 #顶部图配置
 # 是否显示顶部图

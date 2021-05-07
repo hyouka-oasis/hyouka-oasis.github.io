@@ -13,7 +13,7 @@ timezone: '' # 网站时区
 
 # URL 地址配置
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hyoukam.github.io
+url: https://hyoukam.github.io/
 root: /
 # 配置地址链接格式
 permalink: :name/:post_title/

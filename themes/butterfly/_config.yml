@@ -12,6 +12,7 @@ menu:
   标签: /tags/ || fas fa-tags
   友情链接||fa fa-heartbeat:
     俊劫的学习基地: https://alexwjj.github.io/ || iconfont icon-qianduan
+    更多: /link ||fa fa-heartbeat
   关于我: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -249,11 +250,10 @@ addtoany:
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # 评论
-
 comments:
   use:
     # - Valine
-    - Waline
+    - Twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -349,9 +349,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: hyouka-3gvi14m1c09e066d
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Chat Services

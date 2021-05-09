@@ -8,6 +8,8 @@ categories:
 - 算法
 
 date: '2021-4-21'
+
+cover: /assets/剑指offer.jpeg
 ---
 
 > 二分查找

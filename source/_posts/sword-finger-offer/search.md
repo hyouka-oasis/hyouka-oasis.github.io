@@ -8,6 +8,8 @@ categories:
 - 算法
 
 date: '2021-4-26'
+
+cover: https://raw.githubusercontent.com/HyoukaM/hyoukam.github.io/master/assets/image/%E5%89%91%E6%8C%87offer.jpeg
 ---
 
 统计一个数字在排序数组中出现的次数。

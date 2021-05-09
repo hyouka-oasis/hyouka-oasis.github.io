@@ -7,6 +7,8 @@ categories:
 - 算法
 
 date: '2021-4-22'
+
+cover: https://raw.githubusercontent.com/HyoukaM/hyoukam.github.io/master/assets/image/%E5%89%91%E6%8C%87offer.jpeg
 ---
 
 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。

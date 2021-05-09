@@ -8,6 +8,8 @@ categories:
 - 算法
 
 date: '2021-4-22'
+
+cover: https://raw.githubusercontent.com/HyoukaM/hyoukam.github.io/master/assets/image/%E5%89%91%E6%8C%87offer.jpeg
 ---
 
 数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。

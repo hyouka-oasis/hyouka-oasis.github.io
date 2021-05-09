@@ -8,6 +8,7 @@ tags:
 categories:
 - 算法
 
+cover: https://raw.githubusercontent.com/HyoukaM/hyoukam.github.io/master/assets/image/%E5%89%91%E6%8C%87offer.jpeg
 ---
 
 >二分查找

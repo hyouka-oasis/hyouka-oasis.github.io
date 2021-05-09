@@ -1,11 +1,15 @@
 ---
 title: 剑指 Offer 05. 替换空格
 date: 2021-04-18
+
 tags:
 - 剑指 Offer
 - 简单难度
+
 categories:
 - 算法
+
+cover: https://raw.githubusercontent.com/HyoukaM/hyoukam.github.io/master/assets/image/%E5%89%91%E6%8C%87offer.jpeg
 ---
 
 请实现一个函数, 把字符串 s 中的每个空格替换成"%20"。

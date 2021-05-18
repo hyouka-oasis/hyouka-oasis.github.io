@@ -10,7 +10,7 @@ categories:
 sticky:
 - 2
 
-cover: /assets/theDifferenceBetweenVueAndReact.png
+cover: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/93320594dfea45bd955c28f074fe9733~tplv-k3u1fbpfcp-watermark.image
 ---
 
 > 和我面基(还没)的俊劫发表了一篇这样的文章，地址：[掘金](https://juejin.cn/post/6953482028188860424)

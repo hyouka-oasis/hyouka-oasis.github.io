@@ -35,4 +35,4 @@ yarn global add @vue/cli
 ## 创建vue项目
 打开终端，使用命令 ```vue create [you project name]```后会出来以下界面
 
-![创建vue](./assets/vue-template/vue-config.png)
+![创建vue](./assets/image/vue-template/vue-config.png)

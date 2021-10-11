@@ -120,7 +120,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://cdn.jsdelivr.net/gh/useblue/ucdn/imgs/bg3.webp
+    - https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ef445c9649c47ff999f9686a452899f~tplv-k3u1fbpfcp-watermark.image
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -505,7 +505,7 @@ category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
 # 网站背景
-background: url(https://cdn.jsdelivr.net/gh/useblue/ucdn/imgs/bg3.webp)
+background: url(https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5ef445c9649c47ff999f9686a452899f~tplv-k3u1fbpfcp-watermark.image)
 
 # Footer Background
 footer_bg: false

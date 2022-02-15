@@ -83,7 +83,7 @@ favicon: /assets/image/favicon.svg
 
 # Avatar (頭像)
 avatar:
-  img: /assets/image/img.png
+  img: /assets/image/logo.png
   effect: false
 #顶部图配置
 # 是否显示顶部图

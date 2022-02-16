@@ -40,8 +40,8 @@ case source
           .then(response => response.json())
           .then(data => {
             if (!{theme.subtitle.effect}) {
-              var from = '出自 ' + data.from
-              var sub = "!{theme.subtitle.sub}".length == 0 ? new Array() : "!{theme.subtitle.sub}".split(',')
+              var from = '出自 ' + data.from;
+              var sub = !theme.subtitle.sub.length === 0 ? new Array() : theme.subtitle.sub.split(',');
               var both = sub.unshift(data.hitokoto, from)
               var typed = new Typed('#subtitle', {
                 strings: sub,

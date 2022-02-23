@@ -93,7 +93,7 @@ exclude:
 ignore:
 
 # Extensions 主题配置
-theme: hexo-theme-quiet
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
